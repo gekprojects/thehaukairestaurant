@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* list-style: none; */
+    text-decoration: none;
+} 
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: whitesmoke;
+}
+.body-index {
+    background-image: url(/thehaukairestaurant/images/stefan-johnson-xIFbDeGcy44-unsplash4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    max-height: 1500px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #316292;
+    font-size: 6rem;
+    text-align: center;
+}
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #316292;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 4rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-container {
+    background-color: #316292bb;
+    min-height: 100px;
+    margin-bottom: 0;
+}
+
+header {
+    max-width: 1024px;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.haukai-text {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+nav a {
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-style: solid;
+    border-width: 1PX;
+} 
+
+.container {
+    /* background-color: yellow; */
+    max-width: 1024px;
+    max-height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-text h1{
+    color: white;
+}
+
+.main-text h2 {
+    color: white;
+}
+
+.main-text {
+    /* background-color: rgba(255, 255, 255, 0.582); */
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+.container-main {
+    /* background-color: rgba(120, 100, 96, 0.726); */
+    max-width: 1024px;
+    max-height: 600px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-col {
+    background-color: rgba(255, 255, 255, 0.726);
+    width: 30%;
+    height: 230px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: 15px 15px;
+    border-style: inset;
+    border-width: 2px;
+}
+
+.main-col h2{
+    font-size: 1.25rem;
+    border-color: black;
+    text-align: center;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+
+.main-col p {
+    font-size: 1rem;
+    border-color: black;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.reservation-button {
+    font-size: 1.5rem;
+    color: rgb(120, 100, 96);
+    line-height: 10rem;
+    border-style: solid;
+    border-color: rgb(120, 100, 96);
+    border-width: 2PX;
+    padding: 10px 20px;
+    margin-left: 60px;
+}
+
+.video {
+    height: 330px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    max-width: 580px;
+    margin: 0 auto;
+}
+/* Footer CSS Styling */
+footer {
+    background-color: #316292cc;
+    width: 100%;
+    height: 100px;
+}
+.footer-text {
+    font-size: 1.15rem;
+    text-align: center;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    line-height: 1.5rem;
+}
+.mobile-nav {
+    display: none;
+}
+
+/* Container/Title CSS Code */
+
+.container-title {
+    max-width: 1024px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* Reservations CSS Code */
+
+.reservation-form {
+    height: 800px;
+}
+
+/* Contact CSS Code */
+
+.container-contact {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.contact-information {
+    background-color: rgba(120, 100, 96, 0.233);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    line-height: 2rem;
+}
+.contact-information h2 {
+    font-size: 2rem;
+}
+
+.container-map {
+    max-width: 1024px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Privacy CSS Code */
+
+.container-privacy {
+    max-width: 1024px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.privacy {
+    color: rgb(120, 100, 96);
+}
+
+.privacy h2 {
+    font-size: 3rem;
+}
+
+.privacy p {
+    font-size: 1rem;
+}
+
+/* Hours CSS Code */
+.container-calendar {
+    background-color: black;
+    max-width: 1024px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+/* Menu CSS Code */
+
+.container-menu-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.menu-images {
+    width: 300px;
+    margin: 10px;
+}
+.container-menu {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-menu h1 {
+    color: rgb(120, 100, 96);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1.65rem;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.container-menu h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.container-menu p {
+    font-size: 1rem;
+}
+
+.price {
+    color: rgb(206, 68, 26);
+}
+
+.container-drinks {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.drinks-menu {
+    width: 400px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container-drinks h1 {
+    color: rgb(120, 100, 96);
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1.65rem;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.container-drinks h2 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.container-drinks p {
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 1.5rem;
+}
+
+
+
+/* Tablet view */
+@media (max-width: 1020px) {
+    .main-col {
+        width: 300px;
+        margin: 0 auto;
+        justify-content:space-evenly;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    .burger-menu {
+        padding-right: 20px;
+    }
+    .mobile-nav {
+        display: block;
+    }
+    .mobile-dropdown {
+        display: none;
+        position: absolute;
+        padding-top: 5px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .mobile-button {
+        display: block;
+        background-color: rgb(120, 100, 96);
+        padding: 15px 30px;
+        margin-left: -120px;
+        text-align: center;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 640px) {
+    .col {
+        width: 100%;
+    }
+    .header-container {
+        position: relative;
+    }
+    .menu-items {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
