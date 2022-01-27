@@ -1,0 +1,22 @@
+.w3-container {
+    color: red;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.w3-container h1 {
+    font-family: 'Playfair Display', serif;
+}
+.google-map-container {
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-details {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 20px;
+    font-family: 'Quicksand' sans-serif;
+}
