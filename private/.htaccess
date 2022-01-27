@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Haukai Staff - Restricted Access"
-AuthUserFile gekprojects.github.io/thehaukairestaurant/private/.htpasswd
+AuthUserFile "/app/www/.htpasswd"
 Require valid-user
