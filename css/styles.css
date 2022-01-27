@@ -10,7 +10,7 @@ body {
     background-color: whitesmoke;
 }
 .body-index {
-    background-image: url(/thehaukairestaurant/images/stefan-johnson-xIFbDeGcy44-unsplash4.jpg);
+    background-image: url(../images/stefan-johnson-xIFbDeGcy44-unsplash4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,6 +23,7 @@ h1 {
     color: #316292;
     font-size: 6rem;
     text-align: center;
+    font-weight: lighter;
 }
 h2 {
     font-family: 'Quicksand', sans-serif;
@@ -30,6 +31,7 @@ h2 {
     font-size: 2rem;
     text-align: center;
     line-height: 4rem;
+    font-weight: lighter;
 }
 
 a {
