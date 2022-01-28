@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 thehaukaistaff/
+web: vendor/bin/heroku-php-apache2
